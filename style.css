@@ -1,23 +1,33 @@
 body {
     font-family: Arial, sans-serif;
-}
-
-.hero {
-    background: #222;
-    color: white;
-    padding: 50px 0;
-}
-
-h2 {
-    border-bottom: 2px solid #007bff;
-    padding-bottom: 5px;
-}
-
-ul {
-    list-style-type: none;
+    margin: 0;
     padding: 0;
 }
 
-ul li {
-    margin: 5px 0;
+/* Hero Section */
+.hero {
+    background: #222;
+    color: white;
+    padding: 80px 0;
 }
+
+/* Sections */
+.container {
+    max-width: 900px;
+}
+
+/* Job Experience */
+.job {
+    background: #f8f9fa;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-left: 5px solid #007bff;
+}
+
+/* Contact Section */
+#contact a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #007bff;
+}
+
